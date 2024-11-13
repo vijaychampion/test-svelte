@@ -126,8 +126,8 @@
   };
 
   const lineupData = [
-    { performer: { image: "../src/assets/images/pic-1.png", title: "Dana Gould", position: "Host" }, status: "Confirmed", position: "Host", set: {key:"10", status:"Confirmed"}, notes: "Can I go up early?" },
-    { performer: { image: "../src/assets/images/pic-2.png", title: "Natasha Pearl Hansen", position: "Guest" }, status: "Invited", position: "Guest", set: {key:"10", status:"Confirmed"}, notes: "Gonna be late" },
+    { performer: { image: "./../src/assets/images/pic-1.png", title: "Dana Gould", position: "Host" }, status: "Confirmed", position: "Host", set: {key:"10", status:"Confirmed"}, notes: "Can I go up early?" },
+    { performer: { image: "./src/assets/images/pic-2.png", title: "Natasha Pearl Hansen", position: "Guest" }, status: "Invited", position: "Guest", set: {key:"10", status:"Confirmed"}, notes: "Gonna be late" },
     { performer: { image: "./../src/assets/images/pic-3.png", title: "Natasha Pearl", position: "Feature" }, status: "Confirmed", position: "Feature", set: {key:"10", status:"Confirmed"}, notes: "Gonna be late to the show" },
     { performer: { image: "./../src/assets/images/pic-4.png", title: "Pearl Hansen and Her Very Long Name", position: "Invited" }, status: "Invited", position: "Headliner", set: {key:"10", status:"Confirmed"}, notes: "Gonna be late to the show" },
   ];
