@@ -176,7 +176,7 @@
     <td
       tabindex="0"
       on:keydown={handleKeydown}
-      class={cn("p-0 fixed-width", {
+      class={cn("p-0 w-4", {
         "border-r": bordered,
       })}
       on:click={handleDropdownClick}
