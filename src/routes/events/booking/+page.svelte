@@ -70,7 +70,7 @@
         customRender: (status) => {
           const { style, icon } = styleMap[status] || { style: "bg-gray-100 text-gray-500", icon: icons.DefaultIcon };
           return `
-            <span class="px-2 py-1 min-w-[100px] rounded-md inline-flex items-center gap-2 text-xs font-semibold ${style}">
+            <span class="px-2 py-1 min-w-[100px] rounded-md inline-flex items-center gap-2 text-xs font-semibold justify-center ${style}">
               <img src="${icon}" alt="${status}" class="w-3 h-3" /> ${status}
             </span>
           `;
