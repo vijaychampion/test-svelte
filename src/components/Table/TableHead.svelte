@@ -129,7 +129,7 @@
       </th>
     {/each}
     {#if hasActions}
-      <th class={cn('!p-4 fixed-width', thStyle)}></th>
+      <th class={cn('!p-4 w-4')}></th>
     {/if}
   </tr>
 </thead>
