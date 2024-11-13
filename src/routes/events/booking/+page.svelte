@@ -10,6 +10,11 @@
   import PinnedCircleIcon from "../../../assets/svg/pinned-circle.svg"
   import DeclinedIcon from "../../../assets/svg/declined-icon.svg"
   import RosterIcon from "../../../assets/svg/roster.svg"
+  import pic1 from "../../../assets/images/pic-1.png"
+  import pic2 from "../../../assets/images/pic-2.png"
+  import pic3 from "../../../assets/images/pic-3.png"
+  import pic4 from "../../../assets/images/pic-4.png"
+
   import Table from "../../../components/Table/Table.svelte";
   import SectionTitle from "../../../components/SectionTitle/SectionTitle.svelte";
 
@@ -126,18 +131,18 @@
   };
 
   const lineupData = [
-    { performer: { image: "../src/assets/images/pic-1.png", title: "Dana Gould", position: "Host" }, status: "Confirmed", position: "Host", set: {key:"10", status:"Confirmed"}, notes: "Can I go up early?" },
-    { performer: { image: "../src/assets/images/pic-2.png", title: "Natasha Pearl Hansen", position: "Guest" }, status: "Invited", position: "Guest", set: {key:"10", status:"Confirmed"}, notes: "Gonna be late" },
-    { performer: { image: "../src/assets/images/pic-3.png", title: "Natasha Pearl", position: "Feature" }, status: "Confirmed", position: "Feature", set: {key:"10", status:"Confirmed"}, notes: "Gonna be late to the show" },
-    { performer: { image: "../src/assets/images/pic-4.png", title: "Pearl Hansen and Her Very Long Name", position: "Invited" }, status: "Invited", position: "Headliner", set: {key:"10", status:"Confirmed"}, notes: "Gonna be late to the show" },
+    { performer: { image: pic1, title: "Dana Gould", position: "Host" }, status: "Confirmed", position: "Host", set: {key:"10", status:"Confirmed"}, notes: "Can I go up early?" },
+    { performer: { image: pic2, title: "Natasha Pearl Hansen", position: "Guest" }, status: "Invited", position: "Guest", set: {key:"10", status:"Confirmed"}, notes: "Gonna be late" },
+    { performer: { image: pic3, title: "Natasha Pearl", position: "Feature" }, status: "Confirmed", position: "Feature", set: {key:"10", status:"Confirmed"}, notes: "Gonna be late to the show" },
+    { performer: { image: pic4, title: "Pearl Hansen and Her Very Long Name", position: "Invited" }, status: "Invited", position: "Headliner", set: {key:"10", status:"Confirmed"}, notes: "Gonna be late to the show" },
   ];
 
-  const pinnedData = [{ performer: { image: "../src/assets/images/pic-1.png", title: "Dana Gould", position: "Host" }, status: "Pinned", position: "Host", set: {key:"10", status: "Pinned"}, notes: "Can I go up early?" }];
+  const pinnedData = [{ performer: { image: pic1, title: "Dana Gould", position: "Host" }, status: "Pinned", position: "Host", set: {key:"10", status: "Pinned"}, notes: "Can I go up early?" }];
 
   const declinedData = [
-    { performer: { image: "../src/assets/images/pic-1.png", title: "Dana Gould", position: "Host" }, status: "Declined", position: "Host", set: {key:"10", status: "Declined"}, notes: "Can I go up early?" },
-    { performer: { image: "../src/assets/images/pic-2.png", title: "Natasha Pearl Hansen and Her Very Long Name", position: "Declined" }, status: "Declined", position: "Guest", set: {key:"10", status: "Declined"}, notes: "Can I go up early?" },
-    { performer: { image: "../src/assets/images/pic-3.png", title: "Natasha Pearl", position: "Feature" }, status: "Declined", position: "Feature", set: {key:"20", status: "Declined"}, notes: "Can I go up early?" },
+    { performer: { image: pic1, title: "Dana Gould", position: "Host" }, status: "Declined", position: "Host", set: {key:"10", status: "Declined"}, notes: "Can I go up early?" },
+    { performer: { image: pic2, title: "Natasha Pearl Hansen and Her Very Long Name", position: "Declined" }, status: "Declined", position: "Guest", set: {key:"10", status: "Declined"}, notes: "Can I go up early?" },
+    { performer: { image: pic3, title: "Natasha Pearl", position: "Feature" }, status: "Declined", position: "Feature", set: {key:"20", status: "Declined"}, notes: "Can I go up early?" },
   ];
 
   const mobileView = ["status", "position", "notes"];
