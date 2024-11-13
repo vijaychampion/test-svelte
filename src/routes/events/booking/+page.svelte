@@ -100,7 +100,7 @@
         customRender: (set) => {
           const { style, icon } = styleMap[set.status] || { style: "bg-gray-100 text-gray-500", icon: icons.DefaultIcon };
           return `
-            <div class="flex flex-col items-end ${isPinnedOrDeclined ? 'opacity-30' : ''}">
+            <div class="flex flex-col items-end sm:items-start ${isPinnedOrDeclined ? 'opacity-30' : ''}">
               <span>${set.key}</span>
               <span class="px-2 py-1 mt-1 rounded-md inline-flex items-center gap-2 text-xs font-semibold ${style} sm:hidden">
                 <img src="${icon}" alt="${set.status}" class="w-3 h-3" /> ${set.status}
